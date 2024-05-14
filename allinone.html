@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            meter::-webkit-meter-optimum-value {
+  background: rgb(240, 197, 5);
+}
+meter::-moz-meter-bar { /* Firefox Pseudo Class */
+  background: rgb(11, 148, 91);
+}
+        </style>
+        <title>all</title>
+    </head>
+    <body> 
+        <h1>order list</h1>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA</li>
+        </ol><hr>
+
+        <h2><strong>unorder list</strong></h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA</li>
+        </ul> <hr>
+        <h1>nested list</h1>
+        <ul>
+            <li>frontend
+                <ol>
+                    <li>HTML</li>
+                        <ul>
+                            <li> HTML5</li>
+                        </ul>
+              
+                   </li>
+                   <li>CSS
+                        <ul>
+                            <li>CSS3</li>
+                            <li>bootstrap</li>
+                        </ul>
+                        <li>javascript</li>
+                 </ol>
+            </li>
+            <li>backend
+                <ol>
+                    <li>PHP</li>
+                    <li>Database</li>
+                    <li>ajax</li>
+                </ol>
+            </li>
+        </ul><hr>
+
+        <h1>image</h1>
+        <center>
+        <img src="imgsrc.jpg" title="anjum" height="250px"/>
+    </center><hr>
+
+        <h1>anchor tag</h1>
+        <a href="https://www.facebook.com/anjum.chowdhury.71/" target="_blank">go to fb page</a> <br>
+        <a href="D:\lightlog/colorfulllog.html" target="_blank">go to login page</a> 
+        <hr>
+
+          <h1>sub/sup</h1>
+          <center>
+          superscript=  a<sup>1</sup>+b<sup>2</sup> <br>
+          subscript= log <sub>2</sub>46 <br>
+          </center>
+          <meter min="" max="100" value="50"></meter> <hr>
+          <h1>table</h1>
+          <table border="2" width="300px" height="50px" align="center">
+            <thead>
+                 <tr>
+                      <th>course</th>
+                      <th>price</th>
+                      <th>duration</th>
+                 </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <th>photography</th>
+                <th>5000</th>
+                <th>3 month</th>
+            </tr>
+            <tr>
+                <th>videography</th>
+                <th>10000</th>
+                <th>6 month</th>
+            </tr>
+          </tbody>
+          </table> <hr>
+
+           <h1>table attributes</h1>
+          <table bgcolor="aqua" border="3px" align="center" cellpadding="10px" cellspacing="10px"
+          width="300px" height="50px" >
+            <thead>
+                <tr>
+                     <th>course</th>
+                     <th>price</th>
+                     <th>duration</th>
+                </tr>
+         </thead>
+         <tbody>
+           <tr>
+               <th>photography</th>
+               <th>5000</th>
+               <th>3 month</th>
+           </tr>
+           <tr>
+               <th>videography</th>
+               <th>10000</th>
+               <th>6 month</th>
+           </tr>
+         </tbody>
+          </table><hr>
+          <h1>form</h1>
+          <form>
+            <fieldset>
+            Name: <input type="text"/ placeholder="enter your name"> <br> <BR>
+            Gender: <input type="radio" value="male" name="gender">male
+            <input type="radio" value="female" name="gender">female
+            <input type="radio" value="other" name="gender">other<br> <BR>
+                country: 
+                <select>
+                    <option>bangladesh</option>
+                    <option>london</option>
+                    <option>america</option>
+                    <option>canada</option>
+                </select>
+                <br><BR>
+                hoobies: <input type="checkbox" name="hobbies[]">photography
+                <input type="checkbox" name="hobbies[]">videography
+                <BR><BR>
+                    image:<input type="file" name="image"/>
+                    <br> <BR>
+                        Address: <textarea></textarea> <br> <br>
+                    <input type="submit" value="send"/>
+                    <input type="reset" value="reset"/>
+          </form> 
+        </fieldset>
+        <h1>form element</h1>
+        <form>
+            email:<input type="email" name="email" placeholder="enter email" required=""/> <BR><BR>
+            password:<input type="password" name="password" placeholder="enter password"/> <BR><BR>
+            <input type="submit" value="login"/><BR><BR>
+            age:<input type="number" name="age"> <br><BR>
+             date:<input type="date" name="date"/><br><BR>
+            date time:<input type="datetime-local" name=""/><br><BR>
+            time:<input type="time"/><BR><BR>
+             month:  <input type="month"/><BR><BR>
+             week:  <input type="week"/><BR><BR>
+             range:  <input type="range"/><BR><BR>
+
+        </form>
+    </body>
+</html>
